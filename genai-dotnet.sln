@@ -1,8 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "section5_llms", "section5_llms", "{24DEA6A8-3481-4185-8A5E-9731901450C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextCompletion", "TextCompletion\TextCompletion.csproj", "{4110D50D-BAC3-438F-B682-41B503F7C1A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4110D50D-BAC3-438F-B682-41B503F7C1A7} = {24DEA6A8-3481-4185-8A5E-9731901450C2}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4110D50D-BAC3-438F-B682-41B503F7C1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4110D50D-BAC3-438F-B682-41B503F7C1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4110D50D-BAC3-438F-B682-41B503F7C1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4110D50D-BAC3-438F-B682-41B503F7C1A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
